@@ -26,7 +26,7 @@ namespace WindowsFormsApplication3
             }
             catch (Exception)
             {
-                prenode.Nodes.Add("拒绝sb110访问");
+                prenode.Nodes.Add("拒绝访问");
                 return;
             }
             for (int i = 0; i < son.Length; i++)
